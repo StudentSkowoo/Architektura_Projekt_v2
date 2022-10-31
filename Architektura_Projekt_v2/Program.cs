@@ -74,7 +74,7 @@ namespace Architektura_Projekt_v2
 
                     for (int k = 0; k < registerNames.Length; k++) //Check if name comply with register name table
                     {
-                        if (sourceName == registerNames[k])
+                        if (sourceName == registerNames[k]) //If sourceName is same as one if registers
                         {
                             source = k;
                         }
@@ -98,7 +98,7 @@ namespace Architektura_Projekt_v2
 
                     for (int l = 0; l < registerNames.Length; l++) //Check if name comply with register name table
                     {
-                        if (targetName == registerNames[l])
+                        if (targetName == registerNames[l]) //If targetName is same as one if registers
                         {
                             target = l;
                         }
